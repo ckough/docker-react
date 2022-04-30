@@ -22,7 +22,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: docker-frontend
-          environment_name: docker-frontend-env
+          environment_name: dockerfrontend-env
           existing_bucket_name: ck-devops-bucket
           region: ap-southeast-1
           version_label: ${{ github.sha }}
